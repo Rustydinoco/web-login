@@ -1,12 +1,10 @@
-
-
 body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
-    
+    font-family: Trebuchet MS, sans-serif;
+    background: url(wallhaven-x6jy1v_1920x1080.png) no-repeat;
+    background-position: center;
 }
 
 .login {
@@ -14,14 +12,75 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    
 }
 
-.login-area{
-
+h1 {
+    margin: 40px 0px 20px;
+    color: white;
 }
-   
 
+.login-section input {
+    width: 300px;
+    height: 40px ;
+    background: transparent;
+    margin: 15px 0px;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 20px;
 
  
 
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 1px;
+   
+}
+
+.btn {
+    width:50opx;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+
+
+}
+
+button {
+    width:100px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+
+
+}
+
+.btn :hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
