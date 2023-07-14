@@ -49,10 +49,16 @@ h1 {
 
 }
 
+
 input::placeholder {
     color: white;
     padding-left: 1px;
    
+}
+
+i {
+    position: relative;
+    right: 5px;
 }
 
 .btn {
