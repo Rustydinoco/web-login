@@ -26,7 +26,7 @@ body {
     border-radius: 10px;
     backdrop-filter: blur(2px);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-   
+
 }
 
 h1 {
@@ -35,45 +35,60 @@ h1 {
 }
 
 .login-section input {
-    width: 300px;
-    height: 40px ;
+    width: 250px;
+    height: 40px;
     background: transparent;
     margin: 15px 0px;
     border: 1px solid white;
     color: white;
+    font-size:15px ;
     outline: none;
     border-radius: 20px;
-    padding-left: 20px;
+    padding-left: 20px ;
+  
+   
 
- 
+
 
 }
 
 
 input::placeholder {
     color: white;
-    padding-left: 1px;
-   
+ 
+
 }
 
-i {
-    position: relative;
-    right: 5px;
+
+.username i {
+    position: absolute;
+    left: 12px;
+    top: 36%;
+    color: #ffff;
 }
+
+.password i {
+
+    position: absolute;
+    top: 57%;
+    left: 12px;
+    color: #ffff;
+}
+
 
 .btn {
-    width:50opx;
+    width: 50opx;
     height: 8vh;
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    
+
 
 
 }
 
 button {
-    width:100px;
+    width: 100px;
     height: 40px;
     border: 1px solid white;
     color: white;
@@ -84,7 +99,7 @@ button {
 
 }
 
-.btn :hover{
+.btn :hover {
     cursor: pointer;
     background-color: white;
     color: black;
